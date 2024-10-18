@@ -41,11 +41,11 @@
       "points": 20
     },
     {
-      "name": "x01&#38;&#35;45&#59;05",
-      "setup": "make compile",
-      "run": "make -s test",
-      "input": "20.40\r\n33.78\r\n44.99\r\n12.59\r\n0\r\n",
-      "output": "99.17\r\n",
+      "name": "m01-test-005",
+      "setup": "javac M01.java",
+      "run": "javac M01.java",
+      "input": "---",
+      "output": "---",
       "comparison": "exact",
       "timeout": 1,
       "points": 20
