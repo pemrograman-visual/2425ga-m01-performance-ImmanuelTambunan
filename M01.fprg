@@ -4,10 +4,10 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="juliu"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:12:51 AM"/>
+        <attribute name="saved" value="2024-10-18 11:14:28 AM"/>
         <attribute name="created" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6MzA6MDUgUE07MjI2OA=="/>
         <attribute name="edited" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6NDY6MjUgUE07MTsyMzg1"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMToxMjo1MSBBTTs1OzI2OTg="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMToxNDoyOCBBTTs2OzI3MDU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -20,12 +20,6 @@
                     <then/>
                     <else>
                         <input variable="NilaiHuruf"/>
-                        <if expression="NilaiHuruf=&quot;---&quot;">
-                            <then>
-                                <assign variable="NilaiHuruf" expression="Kredit=&quot;---&quot;"/>
-                            </then>
-                            <else/>
-                        </if>
                         <if expression="NilaiHuruf = &quot;A&quot;">
                             <then>
                                 <assign variable="NilaiAngka" expression="4.0"/>
