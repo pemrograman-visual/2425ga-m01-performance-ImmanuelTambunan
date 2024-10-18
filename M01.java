@@ -15,6 +15,9 @@ public class M01 {
             if (kredit.equals("---")) {
             } else {
                 nilaiHuruf = input.nextLine();
+                if (nilaiHuruf.equals("---")) {
+                    nilaiHuruf = kredit.equals("---");
+                }
                 if (nilaiHuruf.equals("A")) {
                     nilaiAngka = 4.0;
                 } else {
