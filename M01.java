@@ -12,9 +12,9 @@ public class M01 {
 
         do {
             kredit = input.nextLine();
-            nilaiHuruf = input.nextLine();
-            if (kredit && nilaiHuruf.equals("---")) {
+            if (kredit.equals("---")) {
             } else {
+                nilaiHuruf = input.nextLine();
                 if (nilaiHuruf.equals("A")) {
                     nilaiAngka = 4.0;
                 } else {
@@ -54,4 +54,3 @@ public class M01 {
         return String.format("%." + digits + "f", value);
     }
 }
-

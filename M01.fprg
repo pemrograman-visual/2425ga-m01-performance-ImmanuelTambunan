@@ -4,10 +4,10 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="juliu"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 11:25:18 AM"/>
+        <attribute name="saved" value="2024-10-18 11:28:12 AM"/>
         <attribute name="created" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6MzA6MDUgUE07MjI2OA=="/>
         <attribute name="edited" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6NDY6MjUgUE07MTsyMzg1"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMToyNToxOCBBTTs4OzI3MDg="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMToyODoxMiBBTTs5OzI3MDY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,10 +16,10 @@
             <declare name="NilaiAngka, Performa" type="Real" array="False" size=""/>
             <do expression="Kredit!= &quot;---&quot;">
                 <input variable="Kredit"/>
-                <input variable="NilaiHuruf"/>
-                <if expression="Kredit&amp;&amp;NilaiHuruf = &quot;---&quot;">
+                <if expression="Kredit = &quot;---&quot;">
                     <then/>
                     <else>
+                        <input variable="NilaiHuruf"/>
                         <if expression="NilaiHuruf = &quot;A&quot;">
                             <then>
                                 <assign variable="NilaiAngka" expression="4.0"/>
