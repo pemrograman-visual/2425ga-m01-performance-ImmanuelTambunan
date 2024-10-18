@@ -2,8 +2,6 @@
 // 12S24034 - Immanuel Alexander Tambunan
 import java.util.*;
 import java.lang.Math;
-import java.util.*;
-import java.lang.Math;
 
 public class M01 {
     private static Scanner input = new Scanner(System.in);
@@ -15,7 +13,7 @@ public class M01 {
         do {
             kredit = input.nextLine();
             nilaiHuruf = input.nextLine();
-            if (kredit.equals("---")) {
+            if (kredit && nilaiHuruf.equals("---")) {
             } else {
                 if (nilaiHuruf.equals("A")) {
                     nilaiAngka = 4.0;
@@ -56,3 +54,4 @@ public class M01 {
         return String.format("%." + digits + "f", value);
     }
 }
+
