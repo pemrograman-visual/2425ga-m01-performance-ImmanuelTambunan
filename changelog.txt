@@ -1,3 +1,3 @@
 Kami mengalami kesulitan di output
 Kami menyelesaikan permasalahan mengenai output dengan menggunakan ToFixed
-Kami telah menyelesaikan permasalahan.
+Kami telah menyelesaikan permasalahan
