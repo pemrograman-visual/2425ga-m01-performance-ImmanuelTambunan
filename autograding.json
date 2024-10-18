@@ -1,5 +1,5 @@
 {
-  "M01": [
+  "tests": [
     {
       "name": "x01&#45;01",
       "setup": "make compile",
