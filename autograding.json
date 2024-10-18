@@ -45,7 +45,7 @@
       "setup": "javac M01.java",
       "run": "javac M01.java",
       "input": "---",
-      "output": "---",
+      "---"
       "comparison": "exact",
       "timeout": 1,
       "points": 20
