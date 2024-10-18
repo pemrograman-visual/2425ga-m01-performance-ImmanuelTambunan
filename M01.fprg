@@ -4,10 +4,10 @@
         <attribute name="name" value="M01"/>
         <attribute name="authors" value="juliu"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-18 10:23:02 AM"/>
+        <attribute name="saved" value="2024-10-18 11:03:32 AM"/>
         <attribute name="created" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6MzA6MDUgUE07MjI2OA=="/>
         <attribute name="edited" value="anVsaXU7S0FJU0FSOzIwMjMtMTAtMjc7MDM6NDY6MjUgUE07MTsyMzg1"/>
-        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMDoyMzowMiBBTTsyOzI2OTI="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtQUMyUVI5MzI7MjAyNC0xMC0xODsxMTowMzozMiBBTTszOzI2OTU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -71,7 +71,7 @@
                             </else>
                         </if>
                         <assign variable="Performa" expression="ToInteger(kredit) * NilaiAngka"/>
-                        <output expression="ToFixed(Performa,1)" newline="True"/>
+                        <output expression="Performa" newline="True"/>
                     </else>
                 </if>
             </do>

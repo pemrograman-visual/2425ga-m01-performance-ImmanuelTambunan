@@ -45,12 +45,8 @@ public class M01 {
                     }
                 }
                 performa = Integer.parseInt(kredit) * nilaiAngka;
-                System.out.println(toFixed(performa,1));
+                System.out.println(performa);
             }
         } while (!kredit.equals("---"));
-    }
-    
-    private static String toFixed(double value, int digits) {
-        return String.format("%." + digits + "f", value);
     }
 }
